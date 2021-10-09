@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "987885238328",
+    "project_id": "fir-blogger-65858",
+    "storage_bucket": "fir-blogger-65858.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987885238328:android:6dda1130d56f7100808ecd",
+        "android_client_info": {
+          "package_name": "com.jesil.toborowei.learnfirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987885238328-f62luqmvt0e67tm01f8p7f06hr1vh50u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jesil.toborowei.learnfirestore",
+            "certificate_hash": "71ba6aa8a2ad57a76f8d884ba10278fdf34789f1"
+          }
+        },
+        {
+          "client_id": "987885238328-l33kke3bgjti9gvoghkp1jubjharr6b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-wxNnFV543f_oqqQbCsUwxE2H8lZ7IBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987885238328-l33kke3bgjti9gvoghkp1jubjharr6b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
