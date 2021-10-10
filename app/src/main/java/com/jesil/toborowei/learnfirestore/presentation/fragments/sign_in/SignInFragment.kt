@@ -5,8 +5,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.viewModels
+import com.google.android.gms.common.SignInButton
+import com.google.android.material.textfield.TextInputEditText
+import com.google.android.material.textfield.TextInputLayout
 import com.jesil.toborowei.learnfirestore.R
 import com.jesil.toborowei.learnfirestore.databinding.SignInFragmentBinding
 import com.jesil.toborowei.learnfirestore.presentation.fragments.utils.enableButton
@@ -32,8 +36,8 @@ class SignInFragment : Fragment() {
     }
 
     private fun initViews() = with(binding) {
-        validateEmailInput()
-        validatePasswordInput()
+        validateEmailInput(emailInput, emailInputLayout, signInButton)
+        validatePasswordInput(passwordInput, passwordInputLayout, signInButton)
 
         if (!signInButton.isEnabled) {
             signInButton.setOnClickListener {
@@ -42,7 +46,11 @@ class SignInFragment : Fragment() {
         }
     }
 
-    private fun validateEmailInput() = with(binding) {
+    private fun validateEmailInput(
+        emailInput: TextInputEditText,
+        emailInputLayout: TextInputLayout,
+        signInButton: Button
+    ) {
         emailInput.validateEmail(
             validate = {
                 emailInputLayout error getString(R.string.error_valid_email)
@@ -56,7 +64,11 @@ class SignInFragment : Fragment() {
 
     }
 
-    private fun validatePasswordInput() = with(binding) {
+    private fun validatePasswordInput(
+        passwordInput: TextInputEditText,
+        passwordInputLayout: TextInputLayout,
+        signInButton: Button
+    ) {
         passwordInput.validatePassword(
             validate = {
                 passwordInputLayout error getString(R.string.error_enter_pasword)
