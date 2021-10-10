@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LearnFirestore</string>
+    <string name="email">Enter your email</string>
+    <string name="password">Enter your password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="error_valid_email">Please enter a valid email address</string>
+    <string name="error_enter_email">Enter an email</string>
+    <string name="error_enter_pasword">Please enter a password</string>
+    <string name="error_password_length">Password must be greater than 5 characters</string>
 </resources>
