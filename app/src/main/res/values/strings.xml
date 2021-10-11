@@ -8,4 +8,7 @@
     <string name="error_enter_email">Enter an email</string>
     <string name="error_enter_pasword">Please enter a password</string>
     <string name="error_password_length">Password must be greater than 5 characters</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up_message">Hello, Sorry you can not Sign up, meet the Admin of this Application to add your email to his list, and give you a specific password to log in with.</string>
 </resources>

@@ -106,7 +106,6 @@
         app:layout_constraintEnd_toEndOf="@+id/sign_in_button"
         app:layout_constraintStart_toStartOf="@+id/sign_in_button"
         app:layout_constraintTop_toTopOf="@+id/sign_in_button"
-        app:layout_constraintVertical_bias="0.284"
         tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

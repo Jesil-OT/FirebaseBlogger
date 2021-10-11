@@ -7,4 +7,5 @@ interface BloggerState{
     fun navigateToNextFragment (user: FirebaseUser?)
 
     fun showErrorDialog(e: Exception?)
+
 }
