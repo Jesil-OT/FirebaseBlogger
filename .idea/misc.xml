@@ -5,8 +5,11 @@
       <map>
         <entry key="..\:/Users/Jesil OT/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_dropdown_item_1line.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/Jesil OT/Documents/AndroidStudioProject/LearnFirestore/app/src/main/res/drawable-v24/splash_background_tint.xml" value="0.22604166666666667" />
+        <entry key="..\:/Users/Jesil OT/Documents/AndroidStudioProject/LearnFirestore/app/src/main/res/drawable-v24/white_dialog_bg.xml" value="0.22604166666666667" />
         <entry key="..\:/Users/Jesil OT/Documents/AndroidStudioProject/LearnFirestore/app/src/main/res/drawable/splash_screen_background.xml" value="0.22604166666666667" />
         <entry key="..\:/Users/Jesil OT/Documents/AndroidStudioProject/LearnFirestore/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Jesil OT/Documents/AndroidStudioProject/LearnFirestore/app/src/main/res/layout/button_custom_layout.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Jesil OT/Documents/AndroidStudioProject/LearnFirestore/app/src/main/res/layout/dialog_error.xml" value="0.20989583333333334" />
         <entry key="..\:/Users/Jesil OT/Documents/AndroidStudioProject/LearnFirestore/app/src/main/res/layout/sign_in_fragment.xml" value="0.20989583333333334" />
       </map>
     </option>
