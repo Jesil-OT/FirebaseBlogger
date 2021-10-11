@@ -5,6 +5,7 @@ import android.app.AlertDialog
 import android.content.Context
 import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
+import android.view.View
 import android.widget.Button
 import android.widget.ProgressBar
 import androidx.core.content.ContextCompat
@@ -12,12 +13,12 @@ import androidx.core.view.isVisible
 import com.google.android.material.textfield.TextInputLayout
 import com.jesil.toborowei.learnfirestore.databinding.DialogErrorBinding
 
-infix fun Button.enableButton(state: Boolean) {
-    isEnabled = state
-}
-
 infix fun TextInputLayout.error(errorMsg: String?) {
     error = errorMsg
+}
+
+infix fun View.enable(state: Boolean){
+    isEnabled = state
 }
 
 infix fun Context?.showErrorDialog(errorMessage: String?) {
