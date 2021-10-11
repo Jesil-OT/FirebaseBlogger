@@ -18,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         runBlocking {
-            delay(2000)
+            delay(1000)
             startActivity(Intent(this@SplashActivity, MainActivity::class.java))
             finish()
         }
