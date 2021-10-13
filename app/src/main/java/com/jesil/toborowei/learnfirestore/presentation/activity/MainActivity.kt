@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    private fun doSomething(){
+        // for new pr
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         _binding = null
